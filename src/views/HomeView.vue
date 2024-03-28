@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import PlayersContainer from '../components/PlayersContainer.vue'
+import ButtonsContainer from '../components/ButtonsContainer.vue'
 </script>
 
 <template>
@@ -8,8 +9,10 @@ import PlayersContainer from '../components/PlayersContainer.vue'
     <div>R1/20</div>
   </div>
   <div>Darts left</div>
-  <div class="grid grid-cols-2 flex-grow">
+  <div class="grid flex-grow">
     <PlayersContainer />
-    <div class="col bg-orange-300">game screen</div>
+    <div class="col col-span-1 flex flex-1">
+      <ButtonsContainer />
+    </div>
   </div>
 </template>

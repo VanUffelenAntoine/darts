@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="flex-1 flex flex-col">
+  <div class="flex-1 flex flex-col col-span-2">
     <div class="m-4">
       <div class="mx-auto text-center">{{ player.score }}</div>
       <div class="mx-auto text-center">{{ player.name }}</div>

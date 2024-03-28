@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import PlayerContainer from '../components/PlayerContainer.vue'
-const player = { name: 'Player 1', score: 142, marks: [0, 0, 0, 0, 0, 0] }
+import ButtonsContainer from '../components/ButtonsContainer.vue'
 </script>
 <template>
   <div class="about min-h-full flex flex-col flex-1">
-    <PlayerContainer :player="player" />
+    <ButtonsContainer />
   </div>
 </template>
